@@ -1,6 +1,6 @@
 <h2><%= @task.title %></h2>
-<p><%= @task.details %></p>
-<p>
+<p>- <%= @task.details %></p>
+<p class="writing-small">
   <% if !@task.completed %>
     This task is not completed yet
   <% else %>
